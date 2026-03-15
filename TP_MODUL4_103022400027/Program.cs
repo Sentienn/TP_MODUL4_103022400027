@@ -10,5 +10,10 @@ class Program
 
         Console.WriteLine("Kelurahan : " + kelurahan);
         Console.WriteLine("Kode Pos  : " + kodePos);
+
+        DoorMachine pintu = new DoorMachine();
+        pintu.Toggle();
+        pintu.Toggle();
+        pintu.Toggle();
     }
 }
